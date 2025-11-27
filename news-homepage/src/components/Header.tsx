@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="flex justify-between items-center  mb-8">
+    <header className="flex justify-between items-center mb-16 col-span-3">
       <img src="../src/img/logo.svg" alt="" />
       <ul className="flex gap-[2.2rem]">
         <li>Home</li>
