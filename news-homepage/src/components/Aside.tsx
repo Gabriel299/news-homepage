@@ -2,8 +2,8 @@ import AsideCard from "./AsideCard";
 
 function Aside() {
   return ( 
-    <aside className="py-8 px-6 row-span-2 bg-blue-700 mb-13.25">
-      <h1 className="mb-3.5 text-4xl font-bold">New</h1>
+    <aside className="py-8 px-6 row-span-2 bg-dark-blue text-off-white mb-13.25">
+      <h1 className="mb-7 text-4xl font-bold text-soft-orange">New</h1>
       <section>
         <AsideCard 
           title = "Hydrogen vs Electic cars"
