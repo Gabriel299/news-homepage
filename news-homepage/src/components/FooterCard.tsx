@@ -7,7 +7,7 @@ interface MyFooterCardProps {
 
 function FooterCard({ imgSrc, firstTitle, secondTitle, paragraph }: MyFooterCardProps) {
   return (
-    <div className="mb-8 col-span-1 flex gap-6 leading-9">
+    <div className="col-span-1 flex gap-6 mb-8 leading-9">
       <img src={imgSrc} alt="" width={85} height={110}/>
       <div>
         <h4 className="text-3xl font-bold text-soft-red">{firstTitle}</h4>
