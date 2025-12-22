@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='flex md:grid flex-col md:grid-cols-3 md:grid-template-rows:repeat(4, auto) md:h-full'>
+      <div className='flex lg:grid flex-col lg:grid-cols-3 xl:grid-cols-[repeat(3,22rem)] xl:grid-rows-[repeat(4,auto)]'>
         <Header />
         <Main />
         <Aside />

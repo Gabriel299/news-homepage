@@ -2,7 +2,7 @@ import AsideCard from "./AsideCard";
 
 function Aside() {
   return ( 
-    <aside className="row-span-2 bg-dark-blue text-off-white px-6 py-6 mb-13.25">
+    <aside className="row-span-2 bg-dark-blue text-off-white p-6 mb-13.25 lg:ml-10 xl:ml-0">
       <h1 className="text-soft-orange text-4xl font-bold mb-5">New</h1>
       <section>
         <AsideCard 
