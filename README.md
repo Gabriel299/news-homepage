@@ -21,6 +21,10 @@ Gli utenti dovrebbero essere in grado di:
 
 ### Screenshot
 
+- Desktop design
+- Mobile design
+- Tablet design
+
   <img src="./news-homepage/src/img/screenshot/desktop.png" alt="Design desktop" style="width: 75%" />
   <div style="display:flex">
     <img src="./news-homepage/src/img/screenshot/mobile.png" alt="Design mobile" />
