@@ -1,3 +1,7 @@
+// Immagini
+import imageWeb3Mobile from '/img/image-web-3-mobile.jpg';
+import imageWeb3Desktop from '/img/image-web-3-desktop.jpg';
+
 function Main() {
   return (
     <main 
@@ -8,10 +12,10 @@ function Main() {
         className="col-span-2 mb-2 self-center">
         <source
           media="(max-width:768px)"
-          srcSet="/img/image-web-3-mobile.jpg"
+          srcSet={imageWeb3Mobile}
         />
         <img 
-          src="/img/image-web-3-desktop.jpg" 
+          src={imageWeb3Desktop}
           alt="Headline news" 
           width={650}
         />

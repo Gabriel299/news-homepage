@@ -2,6 +2,11 @@ import { useState } from "react";
 import HeaderBtn from "./HeaderBtn";
 import HeaderMenuBtn from "./HeaderMenuBtn";
 
+// Immagini
+import logo from '/img/logo.svg';
+import iconMenuOpen from '/img/icon-menu.svg';
+import iconMenuClose from '/img/icon-menu-close.svg';
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,7 +20,7 @@ function Header() {
 
       {/* LOGO DEL SITO */}
       <img
-        src="/img/logo.svg"
+        src={logo}
         alt="Logo"
       />
       {/* OVERLAY */}
@@ -28,7 +33,7 @@ function Header() {
       <HeaderMenuBtn
         toggleMenu={toggleMenu}
         className={`right-0 ${isOpen && "invisible transition-all ease-in duration-200"} xl:hidden`}
-        src="/img/icon-menu.svg"
+        src={iconMenuOpen}
         alt="Open menu"
       />
 
@@ -40,7 +45,7 @@ function Header() {
         <HeaderMenuBtn
           toggleMenu={toggleMenu}
           className="self-end"
-          src="/img/icon-menu-close.svg"
+          src={iconMenuClose}
           alt="Close menu"
         />
 
