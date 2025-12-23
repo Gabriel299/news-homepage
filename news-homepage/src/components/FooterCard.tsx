@@ -12,7 +12,7 @@ function FooterCard({ imgSrc, firstTitle, secondTitle, paragraph }: MyFooterCard
       
       <img 
         src={imgSrc} 
-        alt={firstTitle}
+        alt={secondTitle}
         width={85} 
         height={110}/>
 
