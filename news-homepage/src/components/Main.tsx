@@ -8,10 +8,10 @@ function Main() {
         className="col-span-2 mb-2 self-center">
         <source
           media="(max-width:768px)"
-          srcSet="../src/img/image-web-3-mobile.jpg"
+          srcSet="/img/image-web-3-mobile.jpg"
         />
         <img 
-          src="../src/img/image-web-3-desktop.jpg" 
+          src="/img/image-web-3-desktop.jpg" 
           alt="Headline news" 
           width={650}
         />

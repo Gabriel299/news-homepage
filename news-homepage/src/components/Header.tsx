@@ -15,7 +15,7 @@ function Header() {
 
       {/* LOGO DEL SITO */}
       <img
-        src="../src/img/logo.svg"
+        src="/img/logo.svg"
         alt="Logo"
       />
       {/* OVERLAY */}
@@ -28,7 +28,7 @@ function Header() {
       <HeaderMenuBtn
         toggleMenu={toggleMenu}
         className={`right-0 ${isOpen && "invisible transition-all ease-in duration-200"} xl:hidden`}
-        src="../src/img/icon-menu.svg"
+        src="/img/icon-menu.svg"
         alt="Open menu"
       />
 
@@ -40,7 +40,7 @@ function Header() {
         <HeaderMenuBtn
           toggleMenu={toggleMenu}
           className="self-end"
-          src="../src/img/icon-menu-close.svg"
+          src="/img/icon-menu-close.svg"
           alt="Close menu"
         />
 
