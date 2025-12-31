@@ -35,9 +35,9 @@ Gli utenti dovrebbero essere in grado di:
 
 - Flexbox
 - Grid
-- React v.19.2.0
-- TypeScript v.5.9.3
-- Tailwind v.4.1.17
+- React
+- TypeScript
+- Tailwind
   - Tailwind classes
   - Tailwind custom properties
 
